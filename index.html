@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About MySelf</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/afd6bb5559.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/its.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Welcome Here!</p>
+            <h1>Hi, I'm <span class="input"></span><br> From Bangladesh😊</h1>
+        </div>
+    </div>
+</div>
+
+<!--About Page-->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+
+            <img src="images/about.jpg" alt="">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A highly-motivated web design graduate with a BS from Simmons University (GPA 3.9). Eager to assist WebWrap in building the best websites for small business clients and delivering unforgettable customer experience. Designed 10+ Wordpress-based websites for friends and family. 2-month experience as an intern at a web design. <br><br>
+
+                Cooperated closely with the marketing team to develop concepts and mockups on 10+ projects.
+                Participated in weekly client meetings to discuss solutions and update project status.
+                Worked independently and as part of 3 cross-functional teams on conceptualizing website design and optimization.</p> <br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>WEB DESIGNER</span><br>Not Professional, Just Learning.
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li><span>PHOTOGRAPHER</span><br>Just Natural Click & Simple Editing.</li>
+                        </ul>
+
+                        <ul>
+                            <li><span>GYM LOVER</span><br>Fully Addicted Just Going On.</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>WEB Designing training at home.
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li><span>2019 - 2021</span><br>Just think to do something.</li>
+                        </ul>
+
+                        <ul>
+                            <li><span>2017 - 2019</span><br>Just spending my time by Eating and Sleeping.</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015</span><br>Junior School Certificate(J.S.C)
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li><span>2018</span><br>Secondary School Certificate(S.S.C)</li>
+                        </ul>
+
+                        <ul>
+                            <li><span>2020</span><br>Heigher Secondary School Certificate(H.S.C)</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------Services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2><br>
+                <p><i> Content Management System;
+                    Shopping Cart / Online Ordering System / Online Payments;
+                    Event Booking System;
+                    Event Calendar;
+                    Document Management System;
+                    Membership System;
+                    Blog / News Management;
+                    Business Directory / Listings;
+                    Booking / Reservations / Availability System;
+                    Social Media Integration — Facebook, Twitter, Youtube, Google+, etc.
+                    Email Newsletter
+                    Mobile-optimized Website;
+                    Printer-Friendly Website;
+                    Portfolio Showcase;
+                    Web Hosting;
+                    Web Portals.</i></p>
+                    <a href="#">Learn More...</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-camera-retro"></i>
+                <h2>Photography</h2><br>
+                <p><i>Start with an introductory meeting over the phone or in-person;
+                    Discuss the client's vision or photography needs and how i will be able to help you;
+                    Introduce my proposed photography rates and a draft of a photography contract;
+                    Plan a walk-through of the photography space;
+                    Finalize and sign photography contract and collect a deposit to secure services;
+                    Conduct the photo shoot;
+                    Edit photos and send to client.</i></p>
+                    <a href="#">Learn More...</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-dumbbell"></i>
+                <h2>Gym Training</h2><br>
+                <p><i>Personal trainers work with you one-on-one to help design an engaging exercise regimen, help you with form, ensure you are working all your muscle groups safely, and more. The accountability of meeting your trainer for a set appointment can help stay on track and meet your goals.</i></p>
+                    <a href="#">Learn More...</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--------Portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>E-Commerce Website</h3>
+                    <p>This Website actually made for practiece.practiece makes a man perfect.So still practiecing.</p>
+                    <a href="https://mrmredu.github.io/ecw-2022/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Coffee Website</h3>
+                    <p>This Website actually made for practiece. practiece makes a man perfect.So still practiecing.</p>
+                    <a href="https://mrmredu.github.io/coffeeWDGN/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>Learning Website</h3>
+                    <p>This Website actually made for practiece.practiece makes a man perfect.So still practiecing.</p>
+                    <a href="https://mrmredu.github.io/project2022/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More...</a>
+    </div>
+</div>
+
+<!--------Contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> mrmredul@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 01009998887</p>
+                <div class="social-icon">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © 2022 : Made by <i class="fa-solid fa-heart"></i> MREDUL</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!--------JavaScript-------->
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".input", {
+        strings:["KS Mredul.","A WEB Designer.","A Photographer","A Gym Lover."],
+        typeSpeed: 70,
+        backSpeed: 60,
+        loop:true
+    });
+</script>
+
+
+</body>
+</html>
